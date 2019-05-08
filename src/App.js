@@ -1,30 +1,53 @@
-import React from 'react';
-import './App.css';
-import imgRight from './img/picture-not-available.jpg';
+import React, { Component } from "react";
+import {
+  Route,
+  NavLink,
+  HashRouter
+} from "react-router-dom";
+import About from "./About";
+import BrainTrust from "./BrainTrust";
+import Careers from "./Careers";
+import Contact from "./Contact";
+import Content from "./Content";
+import CorporateCitizenship from "./CorporateCitizenship";
+import Home from "./Home";
+import Movement from "./Movement";
+import OrganizationalDesign from "./OrganizationalDesign";
+import Partenship from "./Partnership";
+import StrategyManagement from "./StrategyManagement";
 
-function App() {
-  return (
-    <div>
-      <div>
-        <div className="headerMenu"><h1>TEMBO GROUP</h1></div>
-        <div className="headerMenu">
-          <button className="btnMenu">HOME</button>
-          <button className="btnMenu">BRAIN TRUST</button>
-          <button className="btnMenu">CAREERS</button>
-          <button className="btnMenu">ABOUT</button>
-          <button className="btnMenu">CONTACT</button>
+class App extends Component {
+  render() {
+    return (
+      <HashRouter>
+        <div>
+          <div align="right">
+            <h1>TEMBOGROUP</h1>
+            <ul className="header">
+              <li><NavLink to="/">HOME</NavLink></li>
+              <li><NavLink to="/brainTrust">BRAIN TRUST</NavLink></li>
+              <li><NavLink to="/careers">CAREERS</NavLink></li>
+              <li><NavLink to="/about">ABOUT</NavLink></li>
+              <li><NavLink to="/contact">CONTACT</NavLink></li>
+            </ul>
+          </div>
+          <div>
+            <Route exact path="/" component={Home}/>
+            <Route path="/brainTrust" component={BrainTrust}/>
+            <Route path="/careers" component={Careers}/>
+            <Route path="/about" component={About}/>
+            <Route path="/contact" component={Contact}/>
+            <Route path="/content" component={Content}/>
+            <Route path="/corporateCitizenship" component={CorporateCitizenship}/>
+            <Route path="/movement" component={Movement}/>
+            <Route path="/organizationalDesign" component={OrganizationalDesign}/>
+            <Route path="/partnership" component={Partenship}/>
+            <Route path="/strategyManagement" component={StrategyManagement}/>
+          </div>
         </div>
-      </div>
-      <div>
-        <div className="content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </div>
-        <div className="content">
-          <img src={imgRight} className="imgServices"/>
-        </div>
-      </div>
-    </div>
-  );
+      </HashRouter>
+    );
+  }
 }
 
 export default App;
