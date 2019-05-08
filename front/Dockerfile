@@ -5,6 +5,7 @@ RUN mkdir /usr/src/app
 WORKDIR /usr/src/app
 COPY . ./
 RUN yarn
+RUN yarn add react-router-dom
 RUN yarn build
 
 # Stage 2 -> Web Server configuration
