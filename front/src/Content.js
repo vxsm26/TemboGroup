@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import imgRight from './img/picture-not-available.jpg';
 import {
-  Route,
-  NavLink,
-  HashRouter
+  NavLink
 } from "react-router-dom";
  
 class Content extends Component {
@@ -22,7 +20,7 @@ class Content extends Component {
           </div>
         </div>
         <div className="content">
-          <img src={imgRight} className="imgHome"/>
+          <img src={imgRight} className="imgHome" alt="imgContent"/>
         </div>
       </div>
     );

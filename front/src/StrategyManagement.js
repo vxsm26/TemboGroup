@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import imgRight from './img/picture-not-available.jpg';
 import {
-  Route,
-  NavLink,
-  HashRouter
+  NavLink
 } from "react-router-dom";
  
 class StrategyManagement extends Component {
@@ -22,7 +20,7 @@ class StrategyManagement extends Component {
           </div>
         </div>
         <div className="content">
-          <img src={imgRight} className="imgHome"/>
+          <img src={imgRight} className="imgHome" alt="imgStrategyManagement"/>
         </div>
       </div>
     );
