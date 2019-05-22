@@ -3,28 +3,37 @@ import imgRight from './img/picture-not-available.jpg';
 import {
   NavLink
 } from "react-router-dom";
- 
+
 class StrategyManagement extends Component {
   render() {
     return (
       <div>
         <div className="content">
           <div className="sectionTitle">
-            STRATEGY MANAGEMENT
+            Strategy &amp; Management
           </div>
           <div className="sectionContent">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            We bring good ideas to life — guiding them from concept through to execution, launch and impact. We design smart strategies that are grounded in the realities of an organization’s capacity to execute them. We help clients navigate complex ecosystems surrounding various causes, and build the necessary networks, knowledge and credibility to operate and launch major initiatives. We identify solutions, codify best practices, develop blueprints to replicate success and help remove barriers to scale<br/>
+            Services include:
+            <br/><br/>
+            <ul>
+              <li><b>organization &amp; program strategy</b></li>
+              <li><b>innovation audit &amp; strategy</b></li>
+              <li><b>replication &amp; scale strategy</b></li>
+              <li><b>network mapping &amp; analysis</b></li>
+              <li><b>workshop design &amp; facilitation</b></li>
+            </ul>
           </div>
           <div align="center" className="sectionBack">
-            <NavLink to="/">BACK</NavLink>
+            <span className="textBack"><NavLink to="/">BACK</NavLink></span>
           </div>
         </div>
         <div className="content">
-          <img src={imgRight} className="imgHome" alt="imgStrategyManagement"/>
+          <img src={imgRight} className="imgHome" alt="imgContent"/>
         </div>
       </div>
     );
   }
 }
- 
+
 export default StrategyManagement;

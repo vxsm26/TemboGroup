@@ -10,21 +10,30 @@ class Partnership extends Component {
       <div>
         <div className="content">
           <div className="sectionTitle">
-            PARTNERSHIP + COALITIONS
+            Partnerships &amp; Coalitions
           </div>
           <div className="sectionContent">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Solving the world’s most intractable societal ails cannot be done in isolation, and while partnerships used to be a novel idea, today they are an operational requirement. At Tembo, we built a proprietary system for analyzing, mapping, engaging and managing partnerships and coalition. For each of our clients, we ensure tour work is not duplicating efforts for optimal impact and return on investment.<br/>
+            Services include:
+            <br/><br/>
+            <ul>
+              <li><b>ecosystem mapping</b></li>
+              <li><b>partnership strategy</b></li>
+              <li><b>coalition building</b></li>
+              <li><b>matchmaking</b></li>
+              <li><b>structure &amp; management</b></li>
+            </ul>
           </div>
           <div align="center" className="sectionBack">
-            <NavLink to="/">BACK</NavLink>
+            <span className="textBack"><NavLink to="/">BACK</NavLink></span>
           </div>
         </div>
         <div className="content">
-          <img src={imgRight} className="imgHome" alt="imgPartnership"/>
+          <img src={imgRight} className="imgHome" alt="imgContent"/>
         </div>
       </div>
     );
   }
 }
- 
+
 export default Partnership;

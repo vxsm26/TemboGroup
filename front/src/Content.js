@@ -3,20 +3,29 @@ import imgRight from './img/picture-not-available.jpg';
 import {
   NavLink
 } from "react-router-dom";
- 
+
 class Content extends Component {
   render() {
     return (
       <div>
         <div className="content">
           <div className="sectionTitle">
-            CONTENT + THOUGHT LEADERSHIP
+            Content &amp; Thought Leadership
           </div>
           <div className="sectionContent">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Leading in the 21st century requires that we catalyze conversations, shape debates, and create the frames though which people digest information. At Tembo, we work closely with clients to articulate their points of view, and translate their perspectives into influential content, and distribute that content across the most relevantchannels.<br/>
+            Services include:
+            <br/><br/>
+            <ul>
+              <li><b>content, theme &amp; platform strategy</b></li>
+              <li><b>content creation &amp; distribution,</b> including bespoke publications &amp; platforms</li>
+              <li><b>executive positioning,</b> including event strategy, speechwriting, digital personas &amp; media/presentation training</li>
+              <li><b>knowledge &amp; research</b></li>
+              <li><b>reputation risk management</b></li>
+            </ul>
           </div>
           <div align="center" className="sectionBack">
-            <NavLink to="/">BACK</NavLink>
+            <span className="textBack"><NavLink to="/">BACK</NavLink></span>
           </div>
         </div>
         <div className="content">
@@ -26,5 +35,5 @@ class Content extends Component {
     );
   }
 }
- 
+
 export default Content;

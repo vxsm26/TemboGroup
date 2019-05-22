@@ -3,28 +3,37 @@ import imgRight from './img/picture-not-available.jpg';
 import {
   NavLink
 } from "react-router-dom";
- 
+
 class CorporateCitizenship extends Component {
   render() {
     return (
       <div>
         <div className="content">
           <div className="sectionTitle">
-            CORPORATE CITIZENSHIP
+            Corporate Citizenship
           </div>
           <div className="sectionContent">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            The Scale of challenges humanity faces requires collective action, and often radical shifts in culture and behavior. Instigating this change means sparking real movements, which can be intentionally built, but must be collectively adopted. It means building narratives that permeate popular media, tied to specific policy and behavior changes. We work with clients to design, build anc catalyze movements. Services include:
+            <br/><br/>
+            <ul>
+              <li><b>campaign strategy, branding &amp; execution</b></li>
+              <li><b>transmedia storytelling &amp; messaging</b></li>
+              <li><b>public affairs &amp; policy</b></li>
+              <li><b>PR &amp; communications</b></li>
+              <li><b>digital strategy</b></li>
+              <li><b>art, design &amp; media</b></li>
+            </ul>
           </div>
           <div align="center" className="sectionBack">
-            <NavLink to="/">BACK</NavLink>
+            <span className="textBack"><NavLink to="/">BACK</NavLink></span>
           </div>
         </div>
         <div className="content">
-          <img src={imgRight} className="imgHome" alt="imgCorporateCitizenship"/>
+          <img src={imgRight} className="imgHome" alt="imgContent"/>
         </div>
       </div>
     );
   }
 }
- 
+
 export default CorporateCitizenship;
