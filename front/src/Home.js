@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import imgRight from './img/picture-not-available.jpg';
-import imgLine from './img/verticalLine.png';
+//import imgLine from './img/verticalLine.png';
 
 import {
   NavLink
 } from "react-router-dom";
- 
+
 class Home extends Component {
   render() {
     return (
@@ -21,7 +21,7 @@ class Home extends Component {
               </ul>
             </div>
             <div className="divider">
-              
+
             </div>
             <div className="content">
               <img src={imgRight} className="imgHome" alt="imgHome"/>
@@ -30,5 +30,5 @@ class Home extends Component {
     );
   }
 }
- 
+
 export default Home;
