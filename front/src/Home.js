@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import imgRight from './img/picture-not-available.jpg';
-//import imgLine from './img/verticalLine.png';
+import imgLine from './img/line_Trimmed.png';
 
 import {
   NavLink
@@ -21,7 +21,7 @@ class Home extends Component {
               </ul>
             </div>
             <div className="divider">
-
+              <img src={imgLine} alt="imgLine"/>
             </div>
             <div className="content">
               <img src={imgRight} className="imgHome" alt="imgHome"/>
