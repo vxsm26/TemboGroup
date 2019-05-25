@@ -10,11 +10,10 @@ class OrganizationalDesing extends Component {
       <div>
         <div className="content">
           <div className="sectionTitle">
-            Organizational Desing
+            Organizational Design
           </div>
           <div className="sectionContent">
-            We design, repair and restructure organizations and programs to support and maximize their social impact. We build foundations, non-profits and corporate sustainability programs from the ground up. We create structure where little exists - taking fragmented efforts, and bringing focus, rigor, strategy and structure so organizations can be more efficient with their resources. We realign incentives and create institutional mechanisms to foster greater collaboration.<br/>
-            Services include:
+            We design, repair and restructure organizations and programs to support and maximize their social impact. We build foundations, non-profits and corporate sustainability programs from the ground up. We create structure where little exists — taking fragmented efforts, and bringing focus, rigor, strategy and structure so organizations can be more efficient with their resources. We realign incentives and create institutional mechanisms to foster greater collaboration. Services include:
             <br/><br/>
             <ul>
               <li><b>organizational design, strategy &amp; launch</b></li>

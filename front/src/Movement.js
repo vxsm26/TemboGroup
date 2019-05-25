@@ -13,8 +13,7 @@ class Movement extends Component {
             Movement Making
           </div>
           <div className="sectionContent">
-            The Scale of challenges humanity faces requires collective action, and often radical shifts in culture and behavior. Instigating this change means sparking real movements, which can be intentionally built, but must be collectively adopted. It means building narratives that permeate popular media, tied to specific policy and behavior changes. We work with clients to design, build anc catalyze movements.<br/>
-            Services include:
+            The scale of challenges humanity faces requires collective action, and often radical shifts in culture and behaviors. Instigating this change means sparking real movements, which can be intentionally built, but must be collectively adopted. It means building narratives that permeate popular media, tied to specific policy and behavior changes. We work with clients to design, build and catalyze movements. Services include:
             <br/><br/>
             <ul>
               <li><b>campaign strategy, branding &amp; execution</b></li>

@@ -27,7 +27,7 @@ class Careers extends Component {
           <table cellSpacing="0">
             <tbody>
               <tr>
-                <td bgcolor="#cce6ff"><b>Executive Assistant</b></td>
+                <td bgcolor="#cce6ff"><b>Chief of Staff</b></td>
               </tr>
               <tr>
                 <td>The Tembo Group is seeking an Executive Assistant to support our Managing Director and perform a variety of administrative tasks across the organization. The ideal candidate is dynamic, entrepreneurial, highly organized and an excellent internet sleuth and problem solver. They are self- motivated, professional, and capable of managing their work load and prioritizing tasks in a fast-paced start-up environment.</td>

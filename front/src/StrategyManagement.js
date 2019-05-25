@@ -13,8 +13,7 @@ class StrategyManagement extends Component {
             Strategy &amp; Management
           </div>
           <div className="sectionContent">
-            We bring good ideas to life — guiding them from concept through to execution, launch and impact. We design smart strategies that are grounded in the realities of an organization’s capacity to execute them. We help clients navigate complex ecosystems surrounding various causes, and build the necessary networks, knowledge and credibility to operate and launch major initiatives. We identify solutions, codify best practices, develop blueprints to replicate success and help remove barriers to scale<br/>
-            Services include:
+            We bring good ideas to life -- guiding them from concept through to execution, launch and impact. We design smart strategies that are grounded in the realities of an organization's capacity to execute them. We help clients navigate complex ecosystems surrounding various causes, and build the necessary networks, knowledge and credibility to operate and launch major initiatives. We identify solutions, codify best practices, develop blueprints to replicate success and help remove barriers to scale. Services include:
             <br/><br/>
             <ul>
               <li><b>organization &amp; program strategy</b></li>

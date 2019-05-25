@@ -13,8 +13,7 @@ class Partnership extends Component {
             Partnerships &amp; Coalitions
           </div>
           <div className="sectionContent">
-            Solving the world’s most intractable societal ails cannot be done in isolation, and while partnerships used to be a novel idea, today they are an operational requirement. At Tembo, we built a proprietary system for analyzing, mapping, engaging and managing partnerships and coalition. For each of our clients, we ensure tour work is not duplicating efforts for optimal impact and return on investment.<br/>
-            Services include:
+            Solving the world's most intractable societal ails cannot be done in isolation, and while partnerships used to be a novel idea, today they are an operational requirement. At Tembo, we have built a proprietary system for analyzing, mapping, engaging and managing partnerships and coalitions. For each of our clients, we ensure your work is not duplicating efforts, but rather helping to lift up our collective efforts for optimal impact and return on investment. Services include:
             <br/><br/>
             <ul>
               <li><b>ecosystem mapping</b></li>

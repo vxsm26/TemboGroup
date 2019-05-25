@@ -13,8 +13,7 @@ class Content extends Component {
             Content &amp; Thought Leadership
           </div>
           <div className="sectionContent">
-            Leading in the 21st century requires that we catalyze conversations, shape debates, and create the frames though which people digest information. At Tembo, we work closely with clients to articulate their points of view, and translate their perspectives into influential content, and distribute that content across the most relevantchannels.<br/>
-            Services include:
+            Leading in the 21st century requires that we catalyze conversations, shape debates, and create the frames through which people digest information. At Tembo, we work closely with clients to articulate their points of view, and translate their perspectives into influential content, and distribute that content across the most relevant channels. Services include:
             <br/><br/>
             <ul>
               <li><b>content, theme &amp; platform strategy</b></li>

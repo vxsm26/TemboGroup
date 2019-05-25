@@ -12,12 +12,12 @@ class Home extends Component {
         <div>
             <div className="content">
               <ul className="homeMenu">
-                <li><NavLink to="/strategyManagement">STRATEGY MANAGEMENT</NavLink></li><br/>
-                <li><NavLink to="/organizationalDesign">ORGANITATION DESIGN</NavLink></li><br/>
-                <li><NavLink to="/corporateCitizenship">CORPORATE CITIZENSHIP</NavLink></li><br/>
-                <li><NavLink to="/partnership">PARTNERSHIP &amp; COALITIONS</NavLink></li><br/>
-                <li><NavLink to="/movement">MOVEMENT MAKING</NavLink></li><br/>
-                <li><NavLink to="/content">CONTENT &amp; THOUGHT LEADERSHIP</NavLink></li>
+                <li><NavLink to="/strategyManagement">Strategy Management</NavLink></li><br/>
+                <li><NavLink to="/organizationalDesign">Organizational Design</NavLink></li><br/>
+                <li><NavLink to="/corporateCitizenship">Corporate Citizenship</NavLink></li><br/>
+                <li><NavLink to="/partnership">Partnerships &amp; Coalitions</NavLink></li><br/>
+                <li><NavLink to="/movement">Movement Making</NavLink></li><br/>
+                <li><NavLink to="/content">Content &amp; Thought Leadership</NavLink></li>
               </ul>
             </div>
             <div className="divider">
