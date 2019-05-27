@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import imgRight from './img/picture-not-available.jpg';
-//import imgLine from './img/verticalLine.png';
+import imgLine from './img/dividerLine.png';
 
 import {
   NavLink
@@ -12,16 +12,16 @@ class Home extends Component {
         <div>
             <div className="content">
               <ul className="homeMenu">
-                <li><NavLink to="/strategyManagement">Strategy Management</NavLink></li><br/>
-                <li><NavLink to="/organizationalDesign">Organizational Design</NavLink></li><br/>
-                <li><NavLink to="/corporateCitizenship">Corporate Citizenship</NavLink></li><br/>
-                <li><NavLink to="/partnership">Partnerships &amp; Coalitions</NavLink></li><br/>
-                <li><NavLink to="/movement">Movement Making</NavLink></li><br/>
-                <li><NavLink to="/content">Content &amp; Thought Leadership</NavLink></li>
+                <li className="liHomeMenu"><NavLink to="/strategyManagement">Strategy Management</NavLink></li>
+                <li className="liHomeMenu"><NavLink to="/organizationalDesign">Organizational Design</NavLink></li>
+                <li className="liHomeMenu"><NavLink to="/corporateCitizenship">Corporate Citizenship</NavLink></li>
+                <li className="liHomeMenu"><NavLink to="/partnership">Partnerships &amp; Coalitions</NavLink></li>
+                <li className="liHomeMenu"><NavLink to="/movement">Movement Making</NavLink></li>
+                <li className="liHomeMenu"><NavLink to="/content">Content &amp; Thought Leadership</NavLink></li>
               </ul>
             </div>
             <div className="divider">
-
+              <img src={imgLine} alt="imgLine"/>
             </div>
             <div className="content">
               <img src={imgRight} className="imgHome" alt="imgHome"/>

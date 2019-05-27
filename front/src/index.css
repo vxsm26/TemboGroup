@@ -38,20 +38,21 @@ ul.header li {
   list-style-type: none;
   margin: 0;
   font-family: 'Loves', 'Georgia', serif;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 ul.header {
-  padding: 0;
+  margin: 0;
   display: inline-block;
+  padding-top: 18px;
 }
 
 ul.header li a {
   text-decoration: none;
-  padding: 30px 10px 30px 10px;
+  padding: 0px 23px 0px 23px;
   display: inline-block;
-  width: 150px;
   text-align: center;
+  font-size: 24px;
 }
 
 a {
@@ -71,6 +72,28 @@ a:visited {
   width: 200px;
 }
 
+.divHeaderContainer {
+  height: 125px;
+  padding: 40px 0px 0px 75px;
+}
+
+.divHeader {
+  display: inline-block;
+}
+
+.imgLogo {
+  width: 168px;
+  height: 109px;
+}
+
+.leftHeader {
+  width: 513px;
+}
+
+.rightHeader {
+  position: absolute;
+}
+
 /* Sections */
 .generalContent {
   padding: 100px 50px;
@@ -78,8 +101,7 @@ a:visited {
 
 .content {
   display: inline-block;
-  width: 39%;
-  padding: 70px;
+  width: 49%;
   vertical-align: middle;
 }
 
@@ -88,22 +110,22 @@ a:visited {
   vertical-align: middle;
 }
 
-.imgLine {
-  width: 20px;
-  height: 600px;
-}
-
 .imgHome {
   height: 400px;
 }
 
 ul.homeMenu li {
   list-style-type: none;
-  margin: 0;
+  padding-left: 87px;
 }
 
 ul.homeMenu {
   padding: 0;
+}
+
+.liHomeMenu {
+  padding: 23px 0px;
+  font-size: 24px;
 }
 
 .sectionTitle {
