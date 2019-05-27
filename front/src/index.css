@@ -110,8 +110,8 @@ a:visited {
   vertical-align: middle;
 }
 
-.imgHome {
-  height: 400px;
+.imgRight {
+  width: 100%;
 }
 
 ul.homeMenu li {
@@ -128,15 +128,20 @@ ul.homeMenu {
   font-size: 24px;
 }
 
+.butterflyMenu {
+  position: relative;
+  top: 6px;
+  padding-right: 31px;
+}
+
 .sectionTitle {
-  padding: 30px 0px;
-  font-weight: bold;
-  letter-spacing: 9px;
+  padding-left: 90px;
   font-family: 'Proletar', 'Georgia', serif;
+  font-size: 24px;
 }
 
 .sectionContent{
-  padding: 10px 50px;
+  padding: 41px 30px 41px 65px;
 }
 
 .sectionBack {

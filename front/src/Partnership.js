@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import imgRight from './img/picture-not-available.jpg';
+import imgLine from './img/dividerLine.png';
+import imgBF4 from './img/butterfly4.png';
+
 import {
   NavLink
 } from "react-router-dom";
@@ -10,7 +13,8 @@ class Partnership extends Component {
       <div>
         <div className="content">
           <div className="sectionTitle">
-            Partnerships &amp; Coalitions
+            <img src={imgBF4} className="butterflyMenu" alt="imgBF4"/>
+            <span>Partnerships &amp; Coalitions</span>
           </div>
           <div className="sectionContent">
             Solving the world's most intractable societal ails cannot be done in isolation, and while partnerships used to be a novel idea, today they are an operational requirement. At Tembo, we have built a proprietary system for analyzing, mapping, engaging and managing partnerships and coalitions. For each of our clients, we ensure your work is not duplicating efforts, but rather helping to lift up our collective efforts for optimal impact and return on investment. Services include:
@@ -27,8 +31,11 @@ class Partnership extends Component {
             <span className="textBack"><NavLink to="/">BACK</NavLink></span>
           </div>
         </div>
+        <div className="divider">
+          <img src={imgLine} alt="imgLine"/>
+        </div>
         <div className="content">
-          <img src={imgRight} className="imgHome" alt="imgContent"/>
+          <img src={imgRight} className="imgRight" alt="imgContent"/>
         </div>
       </div>
     );

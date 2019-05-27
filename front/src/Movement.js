@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import imgRight from './img/picture-not-available.jpg';
+import imgLine from './img/dividerLine.png';
+import imgBF5 from './img/butterfly5.png';
+
 import {
   NavLink
 } from "react-router-dom";
@@ -10,7 +13,8 @@ class Movement extends Component {
       <div>
         <div className="content">
           <div className="sectionTitle">
-            Movement Making
+            <img src={imgBF5} className="butterflyMenu" alt="imgBF5"/>
+            <span>Movement Making</span>
           </div>
           <div className="sectionContent">
             The scale of challenges humanity faces requires collective action, and often radical shifts in culture and behaviors. Instigating this change means sparking real movements, which can be intentionally built, but must be collectively adopted. It means building narratives that permeate popular media, tied to specific policy and behavior changes. We work with clients to design, build and catalyze movements. Services include:
@@ -28,8 +32,11 @@ class Movement extends Component {
             <span className="textBack"><NavLink to="/">BACK</NavLink></span>
           </div>
         </div>
+        <div className="divider">
+          <img src={imgLine} alt="imgLine"/>
+        </div>
         <div className="content">
-          <img src={imgRight} className="imgHome" alt="imgContent"/>
+          <img src={imgRight} className="imgRight" alt="imgContent"/>
         </div>
       </div>
     );
