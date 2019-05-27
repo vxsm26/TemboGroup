@@ -15,21 +15,26 @@ import Movement from "./Movement";
 import OrganizationalDesign from "./OrganizationalDesign";
 import Partenship from "./Partnership";
 import StrategyManagement from "./StrategyManagement";
+import imgLogo from "./img/temboGroupLogo.png";
 
 class App extends Component {
   render() {
     return (
       <HashRouter>
         <div>
-          <div align="right">
-            <h1>TEMBOGROUP</h1>
-            <ul className="header">
-              <li className="borderRight"><NavLink to="/">SERVICES</NavLink></li>
-              <li className="borderRight"><NavLink to="/brainTrust">BRAIN TRUST</NavLink></li>
-              <li className="borderRight"><NavLink to="/careers">CAREERS</NavLink></li>
-              <li className="borderRight"><NavLink to="/about">ABOUT</NavLink></li>
-              <li><NavLink to="/contact">CONTACT</NavLink></li>
-            </ul>
+          <div className="divHeaderContainer">
+            <div className="divHeader leftHeader">
+              <img src={imgLogo} className="imgLogo" alt="imgLogo"/>
+            </div>
+            <div className="divHeader rightHeader">
+              <ul className="header">
+                <li className="borderRight"><NavLink to="/">SERVICES</NavLink></li>
+                <li className="borderRight"><NavLink to="/brainTrust">BRAIN TRUST</NavLink></li>
+                <li className="borderRight"><NavLink to="/careers">CAREERS</NavLink></li>
+                <li className="borderRight"><NavLink to="/about">ABOUT</NavLink></li>
+                <li><NavLink to="/contact">CONTACT</NavLink></li>
+              </ul>
+            </div>
           </div>
           <div>
             <Route exact path="/" component={Home}/>

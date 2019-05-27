@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import imgRight from './img/picture-not-available.jpg';
+import imgLine from './img/dividerLine.png';
+import imgBF1 from './img/butterfly1.png';
+
 import {
   NavLink
 } from "react-router-dom";
@@ -10,11 +13,11 @@ class StrategyManagement extends Component {
       <div>
         <div className="content">
           <div className="sectionTitle">
-            Strategy &amp; Management
+            <img src={imgBF1} className="butterflyMenu" alt="imgBF1"/>
+            <span>Strategy Management</span>
           </div>
           <div className="sectionContent">
-            We bring good ideas to life — guiding them from concept through to execution, launch and impact. We design smart strategies that are grounded in the realities of an organization’s capacity to execute them. We help clients navigate complex ecosystems surrounding various causes, and build the necessary networks, knowledge and credibility to operate and launch major initiatives. We identify solutions, codify best practices, develop blueprints to replicate success and help remove barriers to scale<br/>
-            Services include:
+            We bring good ideas to life -- guiding them from concept through to execution, launch and impact. We design smart strategies that are grounded in the realities of an organization's capacity to execute them. We help clients navigate complex ecosystems surrounding various causes, and build the necessary networks, knowledge and credibility to operate and launch major initiatives. We identify solutions, codify best practices, develop blueprints to replicate success and help remove barriers to scale. Services include:
             <br/><br/>
             <ul>
               <li><b>organization &amp; program strategy</b></li>
@@ -28,8 +31,11 @@ class StrategyManagement extends Component {
             <span className="textBack"><NavLink to="/">BACK</NavLink></span>
           </div>
         </div>
+        <div className="divider">
+          <img src={imgLine} alt="imgLine"/>
+        </div>
         <div className="content">
-          <img src={imgRight} className="imgHome" alt="imgContent"/>
+          <img src={imgRight} className="imgRight" alt="imgContent"/>
         </div>
       </div>
     );
