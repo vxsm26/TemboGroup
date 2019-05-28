@@ -11,7 +11,7 @@ class Movement extends Component {
   render() {
     return (
       <div>
-        <div className="content">
+        <div className="content contentLeft">
           <div className="sectionTitle">
             <img src={imgBF5} className="butterflyMenu" alt="imgBF5"/>
             <span>Movement Making</span>
@@ -35,7 +35,7 @@ class Movement extends Component {
         <div className="divider">
           <img src={imgLine} alt="imgLine"/>
         </div>
-        <div className="content">
+        <div className="content contentRight">
           <img src={imgRight} className="imgRight" alt="imgContent"/>
         </div>
       </div>

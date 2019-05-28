@@ -11,7 +11,7 @@ class Partnership extends Component {
   render() {
     return (
       <div>
-        <div className="content">
+        <div className="content contentLeft">
           <div className="sectionTitle">
             <img src={imgBF4} className="butterflyMenu" alt="imgBF4"/>
             <span>Partnerships &amp; Coalitions</span>
@@ -34,7 +34,7 @@ class Partnership extends Component {
         <div className="divider">
           <img src={imgLine} alt="imgLine"/>
         </div>
-        <div className="content">
+        <div className="content contentRight">
           <img src={imgRight} className="imgRight" alt="imgContent"/>
         </div>
       </div>

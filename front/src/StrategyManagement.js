@@ -11,7 +11,7 @@ class StrategyManagement extends Component {
   render() {
     return (
       <div>
-        <div className="content">
+        <div className="content contentLeft">
           <div className="sectionTitle">
             <img src={imgBF1} className="butterflyMenu" alt="imgBF1"/>
             <span>Strategy Management</span>
@@ -34,7 +34,7 @@ class StrategyManagement extends Component {
         <div className="divider">
           <img src={imgLine} alt="imgLine"/>
         </div>
-        <div className="content">
+        <div className="content contentRight">
           <img src={imgRight} className="imgRight" alt="imgContent"/>
         </div>
       </div>

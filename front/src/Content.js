@@ -11,7 +11,7 @@ class Content extends Component {
   render() {
     return (
       <div>
-        <div className="content">
+        <div className="content contentLeft">
           <div className="sectionTitle">
             <img src={imgBF6} className="butterflyMenu" alt="imgBF6"/>
             <span>Content &amp; Thought Leadership</span>
@@ -34,7 +34,7 @@ class Content extends Component {
         <div className="divider">
           <img src={imgLine} alt="imgLine"/>
         </div>
-        <div className="content">
+        <div className="content contentRight">
           <img src={imgRight} className="imgRight" alt="imgContent"/>
         </div>
       </div>
