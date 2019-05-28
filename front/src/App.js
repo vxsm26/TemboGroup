@@ -23,7 +23,7 @@ class App extends Component {
       <HashRouter>
         <div>
           <div className="divHeaderContainer">
-            <div className="divHeader leftHeader">
+            <div className="divHeader">
               <img src={imgLogo} className="imgLogo" alt="imgLogo"/>
             </div>
             <div className="divHeader rightHeader">

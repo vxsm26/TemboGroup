@@ -16,7 +16,7 @@ class Home extends Component {
   render() {
     return (
         <div>
-            <div className="content">
+            <div className="content contentLeft">
               <ul className="homeMenu">
                 <li className="liHomeMenu">
                   <div>
@@ -61,7 +61,7 @@ class Home extends Component {
             <div className="divider">
               <img src={imgLine} alt="imgLine"/>
             </div>
-            <div className="content">
+            <div className="content contentRight">
               <img src={imgRightServices} className="imgRight" alt="imgServices"/>
             </div>
         </div>
